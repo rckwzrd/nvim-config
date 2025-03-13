@@ -3,6 +3,7 @@
 Now with structure!
 
 TODO
-- patch fonts
+-[x] patch fonts
 - fix copy/paste :checkhealth
 - list of plugins
+- make sure nvim path in .basrc
