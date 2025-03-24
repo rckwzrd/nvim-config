@@ -26,6 +26,7 @@ Plugins
 - Treesitter
 - Telescope
 - Vim-slueth
+- Lualine
 - ...
 
 LSP
