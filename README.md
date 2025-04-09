@@ -20,6 +20,13 @@ TODO
 -[ ] list of plugins
 -[x] make sure nvim path in .basrc
 - config swap file
+- get onedark theme for text and lualine
+- get keystroke hint
+- add mason to plugins
+- do plugin description
+- get autopairs for braces, parens, and brackets
+- get autocomment n
+- get definition search
 
 Plugins
 - Neotree
