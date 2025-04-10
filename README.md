@@ -2,10 +2,9 @@
 
 `nvim = v0.10.4`
 
-A structured approach to configuring my Neovim "personal development environment". This is a learning exercise.
+A structured approach to configuring a "personal development environment" with Neovim. Plugins are managed with Lazy and language servers are managed with Mason. The goal is to identify the bare essentials for effective code editing and learn more about configuring Neovim with Lua. 
 
-Inspired by this [kickstart configuration fork](https://github.com/rckwzrd/kickstart.nvim/tree/master) and this [yt tutorial series](https://www.youtube.com/playlist?list=PLsz00TDipIffreIaUNk64KxTIkQaGguqn).
-
+Configuration inspired by this [kickstart configuration](https://github.com/rckwzrd/kickstart.nvim/tree/master) and this [yt tutorial series](https://www.youtube.com/playlist?list=PLsz00TDipIffreIaUNk64KxTIkQaGguqn). 
 
 Installation snippet, note release name can change:
 ```bash
@@ -28,7 +27,6 @@ TODO
 - add better jk movement with word wrap
 - text objects and code actions?
 
-Plugins are managed with Lazy and language servers are managed with Mason.
 
 Plugins
 - Neotree
