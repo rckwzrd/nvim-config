@@ -15,18 +15,18 @@ export PATH="$PATH:/opt/<nvim-release-name>/bin"
 ```
 
 TODO
--[x] patch fonts
 - fix copy/paste :checkhealth
--[ ] list of plugins
--[x] make sure nvim path in .basrc
-- config swap file
-- get onedark theme for text and lualine
-- get keystroke hint
-- add mason to plugins
-- do plugin description
+- disable swap file
+- get onedark light dark toggle
+- get keystroke hint plugin
+- add plugin description
+- get git gutter signs
 - get autopairs for braces, parens, and brackets
-- get autocomment n
-- get definition search
+- get autocomment plugin
+- add search last opened files key map
+
+Theme
+- Onedark
 
 Plugins
 - Neotree
@@ -34,7 +34,9 @@ Plugins
 - Telescope
 - Vim-slueth
 - Lualine
-- ...
+- Mason
+- Mason-lspconfig
+- Nvim-lspconfig
 
 LSP
 - Python
