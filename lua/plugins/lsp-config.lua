@@ -11,7 +11,8 @@ return {
       require("mason-lspconfig").setup({
         ensure_installed = {
           "lua_ls",
-          "pylsp",
+          --"omnisharp",
+          "pylsp"
         }
       })
     end
@@ -22,6 +23,7 @@ return {
       local lspconfig = require("lspconfig")
       lspconfig.lua_ls.setup({})
       lspconfig.pylsp.setup({})
+      lspconfig.omnisharp.setup({})
       vim.keymap.set("n", "K", vim.lsp.buf.hover, {}) -- :h vim.lsp.buf
       vim.keymap.set("n", "<C-k>", vim.lsp.buf.signature_help, {})
       vim.keymap.set({"n", "v"}, "<leader>ca", vim.lsp.buf.code_action, {})
