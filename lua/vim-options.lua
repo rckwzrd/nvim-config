@@ -23,3 +23,7 @@ vim.o.smartcase = true
 -- Map leader to space
 vim.g.mapleader = ' '
 vim.g.maplocalleader = ' '
+
+-- Set line break
+vim.opt.linebreak = true
+
