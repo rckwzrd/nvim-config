@@ -27,3 +27,11 @@ vim.g.maplocalleader = ' '
 -- Set line break
 vim.opt.linebreak = true
 
+-- Set tab behavior
+vim.opt.tabstop = 4
+vim.opt.shiftwidth = 4
+vim.opt.expandtab = true
+
+-- Disable swap file in Neovim
+vim.opt.swapfile = false
+
